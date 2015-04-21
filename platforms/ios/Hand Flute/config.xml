@@ -22,6 +22,15 @@
     <feature name="BLE">
         <param name="ios-package" onload="true" value="BLECentralPlugin" />
     </feature>
+    <feature name="BCBluetooth">
+        <param name="ios-package" value="BCBluetooth" />
+    </feature>
+    <feature name="LocationManager">
+        <param name="ios-package" value="CDVLocationManager" />
+    </feature>
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+    </feature>
     <name>Hand Flute</name>
     <description>
         Hello World sample application that responds to the deviceready event.
